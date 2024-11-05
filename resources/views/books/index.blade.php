@@ -23,7 +23,7 @@
                     @if($book->BookCover)
                         <img src="{{ asset( $book->BookCover) }}" 
                              alt="{{ $book->name }}" 
-                             class="h-40 w-40 object-cover rounded-lg mr-4 mb-4 mt-4" 
+                             class="h-40 w-40 o bject-cover rounded-lg mr-4 mb-4 mt-4" 
                              style="object-position: center;">
                     @endif
                     <div class="flex flex-col justify-between flex-1">

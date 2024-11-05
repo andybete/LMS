@@ -8,7 +8,7 @@
         <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Add a New Book</h2>
         <form action="{{ route('books.update',$book) }}" method="POST" enctype="multipart/form-data" >
             @csrf
-            @method('PUT')
+            @method('PATCH')
             <input type="hidden" name="_method" value ="PATCH">
             <div class="mb-4">
                 <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Book Name</label>
